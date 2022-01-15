@@ -1,5 +1,3 @@
-console.log("This is the javascript file for the frontend");
-
 fetch("http://puzzle.mead.io/puzzle").then((response) => {
   response.json().then((data) => {
     console.log(data);
